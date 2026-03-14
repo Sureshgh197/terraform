@@ -1,0 +1,22 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (CRITICAL SECURITY RISK)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files (potential secrets)
+*.tfvars
+*.tfvars.json
+
+# Environment files
+.env
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+.terraform.lock.hcl
