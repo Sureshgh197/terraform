@@ -9,8 +9,8 @@
 crash.log
 
 # Exclude all .tfvars files (potential secrets)
-*.tfvars
-*.tfvars.json
+# *.tfvars
+# *.tfvars.json
 
 # Environment files
 .env
